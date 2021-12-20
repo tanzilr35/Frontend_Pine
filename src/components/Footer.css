@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Combo&display=swap");
+.footer-container {
+    background: linear-gradient(90deg, #1e2f32 -10%, #446457 70%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.footer-link-wrapper {
+    display: flex;
+}
+
+.footer-link-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.footer-link-items h2 {
+    margin-bottom: 13px;
+    font-family: "Stardos Stencil";
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.footer-link-items>h2 {
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+
+.footer-link-items a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.4rem;
+    font-family: "Combo";
+}
+
+.footer-link-items a:hover {
+    color: #e1e5a6;
+    transition: 0.3s ease-out;
+}
+
+
+/* Social Icons */
+
+.social-icon-link {
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+}
+
+.social-icon-link:hover {
+    color: #e1e5a6;
+}
+
+.logocp {
+    width: 150%;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+
+.logocp-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color: #000000;
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.social-logo {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 15px;
+    font-family: "Stardos Stencil";
+    text-shadow: 1px 1px 9px rgba(255, 255, 255, 0.5);
+}
+
+.social-logo:hover {
+    color: #e1e5a6;
+}
+
+.website-rights {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    font-family: "Stardos Stencil";
+}
+
+@media screen and (max-width: 820px) {
+    .footer-links {
+        padding-top: 0rem;
+    }
+    .footer-link-wrapper {
+        flex-direction: column;
+    }
+    .logocp-wrap {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {}
