@@ -25,10 +25,10 @@
     justify-content: space-between;
 }
 
-.i-intro {
-    font-size: 35px;
-    font-weight: 100;
-    font-family: "Combo";
+.i-pengenalan {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Stardos Stencil";
 }
 
 .i-name {
