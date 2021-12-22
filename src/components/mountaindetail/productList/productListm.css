@@ -12,6 +12,7 @@
 }
 
 .pl-title {
+    margin-top: 15rem;
     font-size: 50px;
     font-weight: 600;
 }
@@ -26,7 +27,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background: linear-gradient(90deg, #dd9eb6, #dd9eb662 60%);
+    background: linear-gradient(90deg, #446457, #4464577c 60%);
     border-radius: 10px;
     box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.7);
 }
