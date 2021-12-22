@@ -27,6 +27,7 @@ class RiverStream extends React.Component {
         description: "Inilah beberapa detail lokasi, rute, aktivitas dan biaya yang dibutuhkan untuk wisata ke Sungai Niyama, Tulungagung Jawa Timur",
         content:
           "Wilayah Sumba Barat, Provinsi Nusa Tenggara Timur (NTT) ternyata menyimpan Pantai yang masuk kedalam 100 pantai terbaik di dunia, pantai ini bernama Pantai Nihiwatu. Pantai itu berada di peringkat ke 17 dari 100 pantai terbaik di dunia dan satu satunya pantai di Indonesia yang terpilih menjadi pantai terbaik di Asia.",
+        link: "",
         count: 1,
       },
       {
@@ -36,6 +37,7 @@ class RiverStream extends React.Component {
         description: "Inilah beberapa detail lokasi, rute, aktivitas dan biaya yang dibutuhkan untuk wisata ke Sungai Tamborasi, Sulawesi Tenggara",
         content:
           "Pantai klayar terletak di Desa Kalak, Kecamatan Donorejo, Kabupaten Pacitan, provinsi Jawa Timur. Jarak pantai klaya dengan pusat kota Jawa Timur yaitu Surabaya adalah 302,9 kilometer. Kamu membutuhkan waktu sekitar 7 sampai 8 jam untuk sampai di pantai ini.",
+        link: "",
         count: 1,
       },
     ],

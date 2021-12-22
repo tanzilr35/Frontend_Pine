@@ -1,15 +1,15 @@
-import React, { Component }  from 'react';
-import "./product.css";
+import React, { Component } from "react";
+import "./productw.css";
 
-const Product = ({img,link}) => {
+const Product = ({ img, link }) => {
   return (
-    <div className="p">
-      <div className="p-browser">
-        <div className="p-circle"></div>
-        <div className="p-circle"></div>
-        <div className="p-circle"></div>
+    <div className="pw">
+      <div className="pw-browser">
+        <div className="pw-circle"></div>
+        <div className="pw-circle"></div>
+        <div className="pw-circle"></div>
       </div>
-        <img src={img} alt="" className="p-img" />
+      <img src={img} alt="" className="pw-img" />
     </div>
   );
 };

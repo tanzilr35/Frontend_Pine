@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Elsie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Combo&display=swap");
+.al {
+    padding-top: 18%;
+    padding-right: 5%;
+    margin-bottom: 3%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.al-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.al-right {
+    flex: 1;
+}
+
+.al-card.bg {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    background-color: #9ed0dd2a;
+}
+
+.al-card {
+    width: 60%;
+    height: 70vh;
+    border-radius: 20px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.al-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.al-award-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.al-title {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: "Combo";
+}
+
+.al-sub {
+    margin: 20px 0px;
+    padding-left: 6px;
+    font-family: "Combo";
+}
+
+.al-desc {
+    font-weight: 300;
+    padding-left: 6px;
+    font-family: "Combo";
+}
+
+.al-award {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.al-award-texts {
+    width: 70%;
+}
+
+.al-award-title {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    font-family: "Combo";
+}
+
+.al-award-desc {
+    font-family: "Combo";
+}
+
+@media screen and (max-width: 480px) {
+    .al {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .al-left {
+        width: 100%;
+    }
+    .al-card {
+        height: 30vh;
+    }
+    .al-card.bg,
+    .al-award {
+        display: none;
+    }
+    .al-right {
+        padding: 20px;
+    }
+}

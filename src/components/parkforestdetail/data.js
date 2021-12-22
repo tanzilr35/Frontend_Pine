@@ -1,32 +1,32 @@
 export const products = [
   {
     id: 1,
-    img: "../images/7.jpg",
+    img: "../images/mangunan.jpg",
     link: "#",
   },
   {
     id: 2,
-    img: "../images/8.jpg",
+    img: "../images/mangunan1.jpg",
     link: "#",
   },
   {
     id: 3,
-    img: "../images/3.jpg",
+    img: "../images/mangunan2.jpg",
     link: "#",
   },
   {
     id: 4,
-    img: "../images/4.jpg",
+    img: "../images/mangunan3.jpg",
     link: "#",
   },
   {
     id: 5,
-    img: "../images/5.jpg",
+    img: "../images/mangunan4.jpg",
     link: "#",
   },
   {
     id: 6,
-    img: "../images/6.jpg",
+    img: "../images/mangunan5.jpg",
     link: "#",
   },
 ];

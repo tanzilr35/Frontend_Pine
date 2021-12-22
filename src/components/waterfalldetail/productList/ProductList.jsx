@@ -1,20 +1,19 @@
-import React, { Component }  from 'react';
-import "./productList.css";
+import React, { Component } from "react";
+import "./productListw.css";
 import Product from "../product/Product";
 import { products } from "../data";
 
 const ProductList = () => {
   return (
-    <div className="pl">
-      <div className="pl-texts">
-        <h1 className="pl-title"> <br></br> <br></br>Some Photos From Air Terjun Kanto Lampo, Bali</h1>
-        <p className="pl-desc">
-          Lama is a creative portfolio that your work has been waiting for.
-          Beautiful homes, stunning portfolio styles & a whole lot more awaits
-          inside.
-        </p>
+    <div className="xw">
+      <div className="xw-texts">
+        <h1 className="xw-title">
+          {" "}
+          <br></br> <br></br>Some Photos From Air Terjun Kanto Lampo, Bali
+        </h1>
+        <p className="xw-desc">Kanto Lampo is a stunning xwace that your journey has been waiting for. Beautiful scenery & a whole lot more awaits inside.</p>
       </div>
-      <div className="pl-list">
+      <div className="xw-list">
         {products.map((item) => (
           <Product key={item.id} img={item.img} link={item.link} />
         ))}

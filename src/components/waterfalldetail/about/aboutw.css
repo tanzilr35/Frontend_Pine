@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Elsie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Combo&display=swap");
+.wa {
+    padding-top: 18%;
+    padding-right: 5%;
+    margin-bottom: 3%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.wa-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.wa-right {
+    flex: 1;
+}
+
+.wa-card.bg {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    background-color: #9ecbdd2a;
+}
+
+.wa-card {
+    width: 60%;
+    height: 70vh;
+    border-radius: 20px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.wa-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.wa-award-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.wa-title {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: "Combo";
+}
+
+.wa-sub {
+    margin: 20px 0px;
+    padding-left: 6px;
+    font-family: "Combo";
+}
+
+.wa-desc {
+    font-weight: 300;
+    padding-left: 6px;
+    font-family: "Combo";
+}
+
+.wa-award {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wa-award-texts {
+    width: 70%;
+}
+
+.wa-award-title {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    font-family: "Combo";
+}
+
+.wa-award-desc {
+    font-family: "Combo";
+}
+
+@media screen and (max-width: 480px) {
+    .wa {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .wa-left {
+        width: 100%;
+    }
+    .wa-card {
+        height: 30vh;
+    }
+    .wa-card.bg,
+    .wa-award {
+        display: none;
+    }
+    .wa-right {
+        padding: 20px;
+    }
+}

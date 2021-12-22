@@ -1,10 +1,9 @@
 import React from "react";
 import { useContext } from "react";
 import About from "../parkforestdetail/about/About";
-import Contact from "../parkforestdetail/contact/Contact";
 import Intro from "../parkforestdetail/intro/Intro";
 import ProductList from "../parkforestdetail/productList/ProductList";
-import { ThemeContext } from "../parkforestdetail/context";
+import Footer from "../Footer";
 import "../../App.css";
 
 const ParkForestDetail = () => {
@@ -13,6 +12,7 @@ const ParkForestDetail = () => {
       <Intro />
       <About />
       <ProductList />
+      <Footer />
     </div>
   );
 };

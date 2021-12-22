@@ -26,6 +26,7 @@ class Mountain extends React.Component {
         description: "Inilah beberapa detail lokasi, rute, aktivitas dan biaya yang dibutuhkan untuk wisata ke Gunung Prau, Dieng Jawa Tengah",
         content:
           "Gunung Prau berada di kawasan Dieng, Jawa Tengah. Lebih tepatnya berada di tiga kabupaten yaitu Batang, Kendal, dan Wonosobo. Gunung Prau ini memiliki ketinggian 2.565 mdpl diatas permukaan laut, masuk kedalam Gunung yang tidak terlalu tinggi sehingga cocok untuk pemula yang ingin mencoba hobi mendaki.",
+        link: "",
         count: 1,
       },
       {
@@ -35,6 +36,7 @@ class Mountain extends React.Component {
         description: "Inilah beberapa detail lokasi, rute, aktivitas dan biaya yang dibutuhkan untuk wisata ke Gunung Rinjani, Lombok",
         content:
           "Gunung Rinjani merupakan gunung berapi tertinggi kedua di Indonesia dengan ketinggian 3.726 meter di atas permukaan laut. Gunung ini berada di Pulau Lombok, Nusa Tenggara Barat. Gunung Rinjani menjadi salah satu gunung favorit para pendaki. Keindahan alam Gunung Rinjani menjadi salah satu yang terbaik. Gak heran kalau para wisatawan, baik lokal maupun mancanegara, berbondong-bondong datang ke sini.",
+        link: "",
         count: 1,
       },
     ],

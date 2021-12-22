@@ -5,15 +5,15 @@ import { products } from "../data";
 
 const ProductList = () => {
   return (
-    <div className="pl">
-      <div className="pl-texts">
-        <h1 className="pl-title">
+    <div className="plb">
+      <div className="plb-texts">
+        <h1 className="plb-title">
           {" "}
           <br></br> <br></br>Some Photos From Pink Beach
         </h1>
-        <p className="pl-desc">Labuan Bajo is a stunning place that your journey has been waiting for. Beautiful scenery & a whole lot more awaits inside.</p>
+        <p className="plb-desc">Labuan Bajo is a stunning place that your journey has been waiting for. Beautiful scenery & a whole lot more awaits inside.</p>
       </div>
-      <div className="pl-list">
+      <div className="plb-list">
         {products.map((item) => (
           <Product key={item.id} img={item.img} link={item.link} />
         ))}

@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Combo&display=swap");
+.xr {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.xr-texts {
+    width: 65%;
+}
+
+.xr-title {
+    margin-top: 3rem;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.xr-desc {
+    margin: 20px 0px;
+    font-family: "Combo";
+}
+
+.xr-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #7dc7ab, rgba(112, 158, 140, 0.486) 60%);
+    border-radius: 10px;
+    box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 480px) {
+    .xr {
+        padding: 10px;
+    }
+    .xr-texts {
+        width: 100%;
+    }
+    .xr-desc {
+        display: none;
+    }
+}
