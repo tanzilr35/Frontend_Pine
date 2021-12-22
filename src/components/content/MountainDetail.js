@@ -3,7 +3,7 @@ import { useContext } from "react";
 import About from "../mountaindetail/about/About";
 import Intro from "../mountaindetail/intro/Intro";
 import ProductList from "../mountaindetail/productList/ProductList";
-import { ThemeContext } from "../mountaindetail/context";
+import Footer from "../Footer";
 import "../../App.css";
 
 const MountainDetail = () => {
@@ -12,6 +12,7 @@ const MountainDetail = () => {
       <Intro />
       <About />
       <ProductList />
+      <Footer />
     </div>
   );
 };

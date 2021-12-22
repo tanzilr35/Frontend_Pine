@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Elsie&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Combo&display=swap");
-.a {
+.am {
     padding-top: 18%;
     padding-right: 5%;
     margin-bottom: 3%;
@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.a-left {
+.am-left {
     flex: 1;
     display: flex;
     align-items: center;
@@ -18,93 +18,96 @@
     height: 100%;
 }
 
-.a-right {
+.am-right {
     flex: 1;
 }
 
-.a-card.bg {
+.am-card.bg {
     position: absolute;
     top: 10px;
     left: 60px;
-    background-color: #4464574b;
+    background-color: #4464573f;
 }
 
-.a-card {
+.am-card {
     width: 60%;
     height: 70vh;
     border-radius: 20px;
-    position: relative;
+    position: absolute;
     overflow: hidden;
     box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
-.a-img {
+.am-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.a-award-img {
+.am-award-img {
     width: 120px;
     height: 120px;
     border-radius: 20px;
 }
 
-.a-title {
+.am-title {
     font-weight: bold;
     color: rgb(0, 0, 0);
     font-family: "Combo";
 }
 
-.a-sub {
+.am-sub {
     margin: 20px 0px;
+    padding-left: 6px;
     font-family: "Combo";
 }
 
-.a-desc {
+.am-desc {
     font-weight: 300;
+    padding-left: 6px;
     font-family: "Combo";
 }
 
-.a-award {
+.am-award {
     margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.a-award-texts {
+.am-award-texts {
     width: 70%;
+    font-family: "Combo";
 }
 
-.a-award-title {
+.am-award-title {
     font-weight: bold;
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
     font-family: "Combo";
 }
 
-.a-award-desc {
+.ab-award-desc {
     font-family: "Combo";
 }
 
 @media screen and (max-width: 480px) {
-    .a {
+    .am {
         flex-direction: column;
         text-align: center;
         margin-top: 50px;
     }
-    .a-left {
+    .am-left {
         width: 100%;
     }
-    .a-card {
+    .am-card {
         height: 30vh;
     }
-    .a-card.bg,
-    .a-award {
+    .am-card.bg,
+    .am-award {
         display: none;
     }
-    .a-right {
+    .am-right {
         padding: 20px;
     }
 }

@@ -26,7 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #4464574b;
+    background: linear-gradient(90deg, #dd9eb6, #dd9eb662 60%);
     border-radius: 10px;
     box-shadow: -1px 1px 8px rgba(0, 0, 0, 0.7);
 }

@@ -1,30 +1,29 @@
-import React, { Component }  from 'react';
-import "./intro.css";
+import React, { Component } from "react";
+import "./introm.css";
 
 const Intro = () => {
   return (
-    <div className="i">
-      <div className="i-left">
-        <div className="i-left-wrapper">
-          <h2 className="i-pengenalan">Taman Nasional Bromo Semeru Tengger.</h2>
-          <h1 className="i-name">Gunung Bromo, Jawa Timur</h1>
-          <div className="i-title">
-            <div className="i-title-wrapper">
-              <div className="i-title-item"></div>
-              <div className="i-title-item">Informasi Tempat Wisata</div>
-              <div className="i-title-item">Lokasi Gunung Bromo</div>
-              <div className="i-title-item">Rute menuju Gunung Bromo</div>
-              <div className="i-title-item">Aktifitas dan Biaya</div>
+    <div className="im">
+      <div className="im-left">
+        <div className="im-left-wrapper">
+          <br />
+          <br />
+          <br />
+          <h2 className="im-intro">Taman Nasional Bromo Semeru Tengger.</h2>
+          <h1 className="im-name">Gunung Bromo, Jawa Timur</h1>
+          <div className="im-title">
+            <div className="im-title-wrapper">
+              <div className="im-title-item"></div>
+              <div className="im-title-item">Informasi Tempat Wisata</div>
+              <div className="im-title-item">Lokasi Gunung Bromo</div>
+              <div className="im-title-item">Aktifitas dan Biaya</div>
             </div>
           </div>
-          <p className="i-desc">
-          Inilah beberapa detail lokasi, rute, aktivitas dan biaya yang dibutuhkan untuk wisata ke Gunung Bromo, Jawa Timur.
-          </p>
         </div>
       </div>
-      <div className="i-right">
-        <div className="i-bg"></div>
-        <img src="../images/bromo.jpg" alt="" className="i-img" />
+      <div className="im-right">
+        <div className="im-bg"></div>
+        <img src="../images/bromo.jpg" alt="" className="im-img" />
       </div>
     </div>
   );

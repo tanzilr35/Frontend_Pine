@@ -1,30 +1,30 @@
 import React, { Component } from "react";
-import "./intro.css";
+import "./introb.css";
 
 const Intro = () => {
   return (
-    <div className="i">
-      <div className="i-left">
-        <div className="i-left-wrapper">
-          <h2 className="i-pengenalan">Flores Barat, Nusa Tenggara Timur</h2>
-          <h1 className="i-name">Pink Beach, Labuan Bajo</h1>
-          <div className="i-title">
-            <div className="i-title-wrapper">
-              <div className="i-title-item"></div>
-              <div className="i-title-item">Informasi Tempat Wisata</div>
-              <div className="i-title-item">Lokasi Gunung Bromo</div>
-              <div className="i-title-item">Rute menuju Gunung Bromo</div>
-              <div className="i-title-item">Aktifitas dan Biaya</div>
+    <div className="ib">
+      <div className="ib-left">
+        <div className="ib-left-wrapper">
+          <br />
+          <br />
+          <br />
+          <h2 className="ib-intro">Flores Barat, Nusa Tenggara Timur</h2>
+          <h1 className="ib-name">Pink Beach, Labuan Bajo</h1>
+          <div className="ib-title">
+            <div className="ib-title-wrapper">
+              <div className="ib-title-item">Informasi Tempat Wisata</div>
+              <br />
+              <div className="ib-title-item">Lokasi Labuan Bajo</div>
+              <br />
+              <div className="ib-title-item">Aktifitas dan Biaya</div>
             </div>
           </div>
-          <p className="i-desc">
-          Inilah beberapa detail lokasi, rute, aktivitas dan biaya yang dibutuhkan untuk wisata ke Gunung Bromo, Jawa Timur.
-          </p>
         </div>
       </div>
-      <div className="i-right">
-        <div className="i-bg"></div>
-        <img src="../images/labuan6.jpg" alt="" className="i-img" />
+      <div className="ib-right">
+        <div className="ib-bg"></div>
+        <img src="../images/labuan6.jpg" alt="" className="ib-img" />
       </div>
     </div>
   );
