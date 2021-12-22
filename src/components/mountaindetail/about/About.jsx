@@ -18,30 +18,35 @@ const About = () => {
           <br></br>Apa saja aktivitas yang bisa kita lakukan di sekitar Gunung Bromo?
         </h1>
         <p className="am-sub">
-          Pink beach merupakan salah satu pulau yang berada di Pulau Komodo, Flores Barat, Nusa Tenggara Timur. Untuk datang kemari kamu harus menempuh perjalanan darat dan laut karena letaknya yang ada di Pulau Komodo. Pantai ini berjarak
-          82 kilometer dari Kota Mataram.
+          Meskipun mungkin relatif kecil bila dibandingkan gunung berapi lainnya di Indonesia, Gunung Bromo yang megah tidak akan mengecewakan dengan pemandangan spektakuler dan pemandangan dramatisnya. Dengan ketinggian 2.392 meter, Gunung
+          Bromo tidak termasuk pegunungan tertinggi di Indonesia namun keindahannya sangat menakjubkan. Terletak sekitar 4 jam perjalanan dari Surabaya, ibu kota Jawa Timur, Gunung Bromo adalah bagian dari Taman Nasional
+          Bromo-Tengger-Semeru yang luasnya mencapai 800 km persegi.
         </p>
         <p className="am-desc">
-          Selain bermain-main di Pink beach, Labuan Bajo, aktivitas favorit lainnya adalah melakukan snorkeling dan diving. Berbagai jenis terumbu karang dan ragam ikan yang indah, bisa kamu nikmati di taman bawah lautnya.
+          Berdiri anggun di dalam kaldera besar Gunung Tengger, Gunung Bromo dikelilingi oleh hamparan pasir vulkanik yang melebar yang memancarkan keindahan mistis tertentu. Gunung Bromo dan daerah Tengger juga merupakan rumah dari
+          kelompok sub-etnis Tengger yang masih melestarikan tradisi dan cara hidup mereka yang sudah tua. Di sini, Anda dapat mengamati budaya dan tradisi lokal dari 'orang Tengger' yang unik termasuk ritual dan upacara mereka.
           <br></br>
           <br></br>
-          Nah, untuk sampai ke Pink beach, Labuan Bajo, kamu harus menaiki pesawat menuju Bandar Udara Internasional Komodo. Kmau bisa menginap semalam dahulu di Labuan Bajo, untuk berangakt dengan kapal keesokan paginya, atau pilih rute
-          pesawat subuh, untuk langsung berlayar ketika tiba di Labuan Bajo.
+          Sejauh yang bisa dilihat mata, padang pasir seperti lautan pasir di sekitar Gunung Bromo juga menawarkan petualangan lain. Karena Jeep adalah satu-satunya kendaraan yang mampu melewati medan yang sulit di sekitar Gunung Bromo,
+          mengapa tidak memanfaatkannya sebaik-baiknya dan mengarahkan diri pada petualangan jip off-road yang seru di lautan pasir? Ada banyak operator yang dengan senang hati akan mengatur tur off-road di sekitar gunung, jadi Anda hanya
+          perlu mempersiapkan diri dan bersiap menikmati sensasi yang luar biasa.
           <br></br>
           <br></br>
-          Dari Labuan Bajo, kamu akan berlayar dari Dermaga Loh Liang, Pulau Komodo.
+          Cara lain yang bagus untuk menikmati sensasi lautan pasir adalah dengan mengendarai kuda poni. Anda tidak perlu takut bahkan jika belum pernah naik kuda sebelumnya, Karena kuda biasanya dipegang oleh pemilik. Jauh dari kehidupan
+          sehari-hari yang ramai, inilah salah satu cara terbaik untuk menikmati ketenangan alam.
           <br></br>
           <br></br>
-          Dari Dermaga Loh Liang, biasanya paket wisata kamu sudah termasuk kunjungan ke beberapa lokasi, termasuk pink beach. Ke Pink beach sendiri bisa ditempuh 30 menit menggunakan kapal atau 4 jam trekking melalui tebing karang dan
-          hutan bakau. Mungkin akan lebih lama, akan tetapi panorama yang bisa kamu nikmati lebih indah.
+          Setelah aktivitas petualangan dan fisik, iklim Gunung Bromo yang sejuk dan menyegarkan juga merupakan tempat yang indah dan tempat yang sempurna untuk menikmati secangkir kopi yang mengepul. Rasakan keindahan magis Gunung Bromo
+          sembari menikmati secangkir kopi panas dan makanan ringan. Restoran dan kafe terdekat menawarkan beberapa pemandangan gunung terbaik, sehingga Anda dapat menikmati Coffee Break yang sempurna.
         </p>
         <div className="am-award">
           <img src={Bromom} alt="" className="am-award-img" />
           <div className="am-award-texts">
             <h4 className="am-award-title">Biaya Transportasi dan Tiket Masuk</h4>
             <p className="am-award-desc">
-              Untuk harga menuju ke Pantai Pink sangat beragam, kamu bisa naik private boat seharga Rp 800 ribu - Rp 900 ribu satu kapal pulang-pergi, ataupun public boat seharga Rp30 ribu hingga Rp 40 ribu/ orang untuk sekali jalan.
-              Sedangkan untuk tiket masuknya, hanya Rp10 ribu untuk wisatawan lokal dan Rp50 ribu untuk wisatawan mancanegara.
+              Menuju lokasi gunung Bromo ada beberapa rute dan jalur umum yang sudah dikenal umum, diantaranya adalah jalur selatan yaitu menuju Bromo dari Tumpang Malang - Gubugklakah, yang juga searah dengan rute menuju Ranu Pani dan
+              Semeru. Kemudian jalur dari kota Pasuruan serta yang paling populer yaitu jalur ke Bromo via Probolinggo. Jalur via probolinggo lebih diminati karena banyaknya tersedia penginapan dan hotel dekat dengan kawasan gunung Bromo.
+              Untuk kendaraan roda 4 sekali masuk bisa Rp 10.000, kendaraan roda 2 yaitu Rp 5.000, sepeda pascal Rp 2.000, dan kuda yaitu Rp 1.000
             </p>
           </div>
         </div>
