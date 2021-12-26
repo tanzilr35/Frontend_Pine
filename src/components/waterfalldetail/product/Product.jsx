@@ -3,13 +3,13 @@ import "./productw.css";
 
 const Product = ({ img, link }) => {
   return (
-    <div className="pw">
-      <div className="pw-browser">
-        <div className="pw-circle"></div>
-        <div className="pw-circle"></div>
-        <div className="pw-circle"></div>
+    <div className="p">
+      <div className="p-browser">
+        <div className="p-circle"></div>
+        <div className="p-circle"></div>
+        <div className="p-circle"></div>
       </div>
-      <img src={img} alt="" className="pw-img" />
+      <img src={img} alt="" className="p-img" />
     </div>
   );
 };

@@ -3,13 +3,13 @@ import "./productl.css";
 
 const Product = ({ img, link }) => {
   return (
-    <div className="x">
-      <div className="x-browser">
-        <div className="x-circle"></div>
-        <div className="x-circle"></div>
-        <div className="x-circle"></div>
+    <div className="p">
+      <div className="p-browser">
+        <div className="p-circle"></div>
+        <div className="p-circle"></div>
+        <div className="p-circle"></div>
       </div>
-      <img src={img} alt="" className="x-img" />
+      <img src={img} alt="" className="p-img" />
     </div>
   );
 };

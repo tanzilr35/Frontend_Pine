@@ -1,4 +1,4 @@
-.pr {
+.p {
     width: 30%;
     height: 40vh;
     margin: 20px 10px;
@@ -7,7 +7,7 @@
     overflow: hidden;
 }
 
-.pr-browser {
+.p-browser {
     height: 20px;
     background-color: rgb(243, 242, 242);
     display: flex;
@@ -16,7 +16,7 @@
     z-index: 2;
 }
 
-.pr-circle {
+.p-circle {
     width: 6px;
     height: 6px;
     border-radius: 50%;
@@ -24,17 +24,17 @@
     background-color: #9eddc5;
 }
 
-.pr-img {
+.p-img {
     width: 100%;
     transition: all 10s ease;
 }
 
-.pr:hover .pr-img {
+.p:hover .p-img {
     transform: translateY(-100%);
 }
 
 @media screen and (max-width: 480px) {
-    .pr {
+    .p {
         width: 40%;
         height: 20vh;
     }

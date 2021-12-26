@@ -43,7 +43,7 @@ const About = () => {
           <img src={Bromom} alt="" className="am-award-img" />
           <div className="am-award-texts">
             <h4 className="am-award-title">Biaya Transportasi dan Tiket Masuk</h4>
-            <p className="am-award-desc">
+            <p className="aa-award-desc">
               Menuju lokasi gunung Bromo ada beberapa rute dan jalur umum yang sudah dikenal umum, diantaranya adalah jalur selatan yaitu menuju Bromo dari Tumpang Malang - Gubugklakah, yang juga searah dengan rute menuju Ranu Pani dan
               Semeru. Kemudian jalur dari kota Pasuruan serta yang paling populer yaitu jalur ke Bromo via Probolinggo. Jalur via probolinggo lebih diminati karena banyaknya tersedia penginapan dan hotel dekat dengan kawasan gunung Bromo.
               Untuk kendaraan roda 4 sekali masuk bisa Rp 10.000, kendaraan roda 2 yaitu Rp 5.000, sepeda pascal Rp 2.000, dan kuda yaitu Rp 1.000
